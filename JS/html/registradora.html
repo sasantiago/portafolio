@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registradora.css">
+    <script src="../js/registradora.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <label class="registrador">
+        <label class="formulario">
+            <input type="text" id="nombre" placeholder="Nombre">
+            <br><br>
+            <input type="text" id="apellido" placeholder="Apellido">
+            <br><br>
+            <label for="sexo"></label>
+            <select id="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otros">Otros 39 tipos de gays</option>
+            </select><br><br>
+            <input type="number" id="edad" placeholder="Edad">
+            <br><br>
+            <button onclick="mostrarr()">Mostrar</button>
+        </label>
+        <label id="resultado" class="resultado"></label>
+    </label>
+</body>
+</html>

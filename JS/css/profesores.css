@@ -1,0 +1,11 @@
+.encabezado{
+    height: 500px;
+    width: 300px;
+    font-size: 30px;
+    line-height: 1.2;
+    background-color: rgb(118, 168, 168);
+    border: 4px solid black;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+}
